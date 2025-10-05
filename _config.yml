@@ -1,0 +1,26 @@
+title: Jenny Chen's Portfolio
+name: Jinghan Jenny Chen
+email: jinghan.jenny.chen@gmail.com
+baseurl: ""
+url: ""
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Theme settings
+theme: null
+layouts_dir: _layouts
+
+collections:
+  publications:
+    output: true
+    permalink: /papers/:title/
+
+  posters:
+    output: true
+    permalink: /posters/:title/
+
+  presentations:
+    output: true
+    permalink: /presentations/:title/
